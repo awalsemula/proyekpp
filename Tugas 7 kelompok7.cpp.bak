@@ -153,6 +153,15 @@ int main() {
         cin.ignore(); // Membersihkan buffer keyboard
 
         switch (pilihan) {
+            case 1:
+                tampilkanDataKaryawan();
+                break;
+            case 2:
+                tambahDataKaryawan();
+                break;
+            case 3:
+                updateDataKaryawan();
+                break;
             case 4:
                 hapusDataKaryawan();
                 break;
